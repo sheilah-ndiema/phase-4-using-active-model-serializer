@@ -11,6 +11,7 @@ class MoviesController < ApplicationController
     render json: movie
   end
 
+
   private
 
   def render_not_found_response
